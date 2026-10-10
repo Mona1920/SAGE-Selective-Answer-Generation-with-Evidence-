@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Evidence-Calibrated Abstention in RAG
 
 Academic prototype: retrieve science passages, assess evidence, then **ANSWER**, **CLARIFY**, or **ABSTAIN**.
@@ -30,3 +31,7 @@ Do not treat confidence as certainty. Thresholds are tuned on validation only.
 ## Gemini
 
 Paste `GEMINI_PROMPT.md` into Google Gemini to rebuild the Colab version with dense embeddings if a GPU runtime is available.
+=======
+# SAGE-Selective-Answer-Generation-with-Evidence-
+Research paper
+>>>>>>> origin/main
