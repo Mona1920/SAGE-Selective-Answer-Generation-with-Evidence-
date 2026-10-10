@@ -1,0 +1,690 @@
+[
+  {
+    "example_id": "test-missing-592",
+    "split": "test",
+    "question": "When statoliths settle to the low point in the chamber, they stimulate what in that location?",
+    "options": [
+      "mechanoreceptors",
+      "dendrites",
+      "axons",
+      "nociceptors"
+    ],
+    "gold_answer": "mechanoreceptors",
+    "gold_action": "ABSTAIN",
+    "evidence_type": "missing",
+    "gold_passage_id": null,
+    "construction_note": "Gold support withheld or originally empty, so retrieved evidence should be insufficient.",
+    "clarification_target": null,
+    "predicted_answer": "mechanoreceptors",
+    "option_scores": {
+      "mechanoreceptors": 0.0,
+      "dendrites": 0.0,
+      "axons": 0.0,
+      "nociceptors": 0.0
+    },
+    "extractive_span": "Mass is independent of location, while weight depends on location",
+    "supported_by_context": false,
+    "retrieved": [
+      {
+        "passage_id": "train_5134",
+        "source": "sciq:train:5134",
+        "score": 0.28931884984788475,
+        "text": "Mass is independent of location, while weight depends on location."
+      },
+      {
+        "passage_id": "train_7172",
+        "source": "sciq:train:7172",
+        "score": 0.20038067462119177,
+        "text": "Creep usually takes place where the ground freezes and thaws frequently. Soil and rock particles are lifted up when the ground freezes. When the ground thaws, the particles settle down again. Each time they settle down, they move a tiny bit farther down the slope because of gravity."
+      },
+      {
+        "passage_id": "train_5072",
+        "source": "sciq:train:5072",
+        "score": 0.1665558377261308,
+        "text": "Fine-grained mud in the deep ocean comes from silts and clays brought from the land by wind. The particles are deposited on the sea surface. they slowly settle to the deep ocean floor, forming brown, greenish, or reddish clays. Volcanic ash may also settle on the seafloor."
+      },
+      {
+        "passage_id": "train_2944",
+        "source": "sciq:train:2944",
+        "score": 0.14830536028672686,
+        "text": "To help digest the large amount of plant material, the stomach of the ruminants is a multi-chambered organ, as illustrated in Figure 34.8. The four compartments of the stomach are called the rumen, reticulum, omasum, and abomasum. These chambers contain many microbes that break down cellulose and ferment ingested food. The abomasum is the \u201ctrue\u201d stomach and is the equivalent of the monogastric stomach chamber where gastric juices are secreted. The four-compartment gastric chamber provides larger space and the microbial support necessary to digest plant material in ruminants. The fermentation process produces large amounts of gas in the stomach chamber, which must be eliminated. As in other animals, the small intestine plays an important role in nutrient absorption, and the large intestine helps in the elimination of waste."
+      },
+      {
+        "passage_id": "train_8025",
+        "source": "sciq:train:8025",
+        "score": 0.14499550014232387,
+        "text": "As a child, you may have made suspensions such as mixtures of mud and water, flour and water, or a suspension of solid pigments in water, known as tempera paint. These suspensions are heterogeneous mixtures composed of relatively large particles that are visible (or that can be seen with a magnifying glass). They are cloudy, and the suspended particles settle out after mixing. On the other hand, when we make a solution, we prepare a homogeneous mixture in which no settling occurs and in which the dissolved species are molecules or ions. Solutions exhibit completely different behavior from suspensions. A solution may be colored, but it is transparent, the molecules or ions are invisible, and they do not settle out on standing. A group of mixtures called colloids (or colloidal dispersions) exhibit properties intermediate between those of suspensions and solutions (Figure 11.30). The particles in a colloid are larger than most simple molecules; however, colloidal particles are small enough that they do not settle out upon standing."
+      }
+    ],
+    "retrieved_ids": [
+      "train_5134",
+      "train_7172",
+      "train_5072",
+      "train_2944",
+      "train_8025"
+    ],
+    "features": {
+      "max_relevance": 0.28931884984788475,
+      "mean_relevance": 0.1899112445248516,
+      "goldish_support": 0.0,
+      "option_margin": 0.0,
+      "conflict": 0.5,
+      "ambiguity": 0.95,
+      "retrieval_empty": 0.0,
+      "n_hits": 5.0
+    },
+    "latency_ms": 4.894166999292793,
+    "pred_action": "CLARIFY",
+    "confidence": 0.6444292394514894,
+    "reason": "Calibrated model assigns highest probability to CLARIFY. Signals: ambiguity=0.95, conflict=0.50, answer not clearly mentioned in evidence.",
+    "probabilities": {
+      "ABSTAIN": 0.3070779768139278,
+      "ANSWER": 0.04849278373458288,
+      "CLARIFY": 0.6444292394514894
+    },
+    "answer_score": 0.04849278373458288,
+    "response": "Your question is missing essential detail. Which specific process, entity, or condition do you mean?"
+  },
+  {
+    "example_id": "test-missing-830",
+    "split": "test",
+    "question": "What ingredient has been used in brewing, winemaking and baking for thousands of years?",
+    "options": [
+      "yeast",
+      "flour",
+      "fruit",
+      "oils"
+    ],
+    "gold_answer": "yeast",
+    "gold_action": "ABSTAIN",
+    "evidence_type": "missing",
+    "gold_passage_id": null,
+    "construction_note": "Gold support withheld or originally empty, so retrieved evidence should be insufficient.",
+    "clarification_target": null,
+    "predicted_answer": "yeast",
+    "option_scores": {
+      "yeast": 0.0,
+      "flour": 0.0,
+      "fruit": 0.0,
+      "oils": 0.0
+    },
+    "extractive_span": "Viewing distant stars is looking back in time",
+    "supported_by_context": true,
+    "retrieved": [
+      {
+        "passage_id": "train_6694",
+        "source": "sciq:train:6694",
+        "score": 0.3629984516277471,
+        "text": "Viewing distant stars is looking back in time. The stars we see are many thousands of light years away, which means the light takes many thousands of years to reach us. Thus the stars we see in the sky are how they looked thousands of years ago."
+      },
+      {
+        "passage_id": "train_10029",
+        "source": "sciq:train:10029",
+        "score": 0.3161756338984621,
+        "text": "Humans have collected and grown mushrooms for food for thousands of years. Figure below shows some of the many types of mushrooms that people eat. Yeasts are used in bread baking and brewing alcoholic beverages. Other fungi are used in fermenting a wide variety of foods, including soy sauce, tempeh, and cheeses. Blue cheese has its distinctive appearance and flavor because of the fungus growing though it (see Figure below )."
+      },
+      {
+        "passage_id": "train_7222",
+        "source": "sciq:train:7222",
+        "score": 0.29692199295607913,
+        "text": "Fermented Foods. Fermentation is a type of respiration that doesn\u2019t use oxygen. Fermentation by bacteria is used in brewing and baking. It is also used to make the foods pictured here."
+      },
+      {
+        "passage_id": "test_562",
+        "source": "sciq:test:562",
+        "score": 0.27479018981440984,
+        "text": "The distinctive patterns of tree rings, ice cores, and varves go back thousands of years. They can be used to determine the time they were made."
+      },
+      {
+        "passage_id": "train_7718",
+        "source": "sciq:train:7718",
+        "score": 0.23857366646400432,
+        "text": "Magnetite naturally attracts iron nails and filings. Its natural magnetism was discovered thousands of years ago."
+      }
+    ],
+    "retrieved_ids": [
+      "train_6694",
+      "train_10029",
+      "train_7222",
+      "test_562",
+      "train_7718"
+    ],
+    "features": {
+      "max_relevance": 0.3629984516277471,
+      "mean_relevance": 0.2978919869521405,
+      "goldish_support": 1.0,
+      "option_margin": 0.0,
+      "conflict": 0.5,
+      "ambiguity": 0.0,
+      "retrieval_empty": 0.0,
+      "n_hits": 5.0
+    },
+    "latency_ms": 5.265499999950407,
+    "pred_action": "ABSTAIN",
+    "confidence": 0.6396730370379827,
+    "reason": "Calibrated model assigns highest probability to ABSTAIN. Signals: conflict=0.50.",
+    "probabilities": {
+      "ABSTAIN": 0.6396730370379827,
+      "ANSWER": 0.25347123294765345,
+      "CLARIFY": 0.10685573001436381
+    },
+    "answer_score": 0.25347123294765345,
+    "response": "I cannot give a reliable answer. Calibrated model assigns highest probability to ABSTAIN. Signals: conflict=0.50."
+  },
+  {
+    "example_id": "test-answer-521",
+    "split": "test",
+    "question": "What term means the set of processes by which metals are extracted from their ores and converted to more useful forms?",
+    "options": [
+      "metallurgy",
+      "metamorphisis",
+      "introversion",
+      "ceramics"
+    ],
+    "gold_answer": "metallurgy",
+    "gold_action": "ANSWER",
+    "evidence_type": "sufficient",
+    "gold_passage_id": "test_521",
+    "construction_note": "Original SciQ question; gold support remains in the corpus.",
+    "clarification_target": null,
+    "predicted_answer": "metallurgy",
+    "option_scores": {
+      "metallurgy": 0.05459278780609068,
+      "metamorphisis": 0.0,
+      "introversion": 0.0,
+      "ceramics": 0.0
+    },
+    "extractive_span": "Metallurgy is the set of processes by which metals are extracted from their ores and converted to more useful forms",
+    "supported_by_context": true,
+    "retrieved": [
+      {
+        "passage_id": "test_521",
+        "source": "sciq:test:521",
+        "score": 0.2833243527832571,
+        "text": "Very few of the transition metals are found in nature as free metals. Consequently, almost all metallic elements must be isolated from metal oxide or metal sulfide ores. Metallurgy is the set of processes by which metals are extracted from their ores and converted to more useful forms. Metallurgy consists of three general steps: (1) mining the ore, (2) separating and concentrating the metal or the metal-containing compound, and (3) reducing the ore to the metal. Additional processes are sometimes required to improve the mechanical properties of the metal or increase its purity. Many ores contain relatively low concentrations of the desired metal; for example, copper ores that contain even 1% Cu by mass are considered commercially useful. After an ore has been mined, the first step in processing is usually to crush it because the rate of chemical reactions increases dramatically with increased surface area. Next, one of three general strategies is used to separate and concentrate the compound(s) of interest: settling and flotation, which are based on differences in density between the desired compound and impurities; pyrometallurgy, which uses chemical reduction at high temperatures; and hydrometallurgy, which employs chemical or electrochemical reduction of an aqueous solution of the metal. Other methods that take advantage of unusual physical or chemical properties of a particular compound may also be used. For example, crystals of magnetite (Fe3O4) are tiny but rather powerful magnets; in fact, magnetite (also known as lodestone) was used to make the first compasses in China during the first century BC. If a crushed ore that contains magnetite is passed through a powerful magnet, the Fe3O4 particles are attracted to the poles of the magnet, allowing them to be easily separated from other minerals."
+      },
+      {
+        "passage_id": "train_8983",
+        "source": "sciq:train:8983",
+        "score": 0.1853211834500741,
+        "text": "Metals are elements that can conduct electricity. They are one of three classes of elements (the other two classes are nonmetals and metalloids). Metals are by far the largest of the three classes. In fact, most elements are metals. All of the elements on the left side and in the middle of the periodic table, except for hydrogen, are metals. There are several different types of metals, including alkali metals in group 1 of the periodic table, alkaline Earth metals in group 2, and transition metals in groups 3\u201312. The majority of metals are transition metals."
+      },
+      {
+        "passage_id": "train_5714",
+        "source": "sciq:train:5714",
+        "score": 0.18364056355338607,
+        "text": "Ore is extracted from rock by heap leaching, flotation, or smelting."
+      },
+      {
+        "passage_id": "train_10659",
+        "source": "sciq:train:10659",
+        "score": 0.18044078506059397,
+        "text": "Hydrometallurgy is the preferred method for separating late transition metals from their ores. What types of ligands are most effective in this process?."
+      },
+      {
+        "passage_id": "train_9031",
+        "source": "sciq:train:9031",
+        "score": 0.1756917532657318,
+        "text": "Electrical energy is useful to us mostly because it is easy to transport and can be easily converted to or from other forms of energy. Of course, conversion involves wast, typically as heat."
+      }
+    ],
+    "retrieved_ids": [
+      "test_521",
+      "train_8983",
+      "train_5714",
+      "train_10659",
+      "train_9031"
+    ],
+    "features": {
+      "max_relevance": 0.2833243527832571,
+      "mean_relevance": 0.2016837276226086,
+      "goldish_support": 1.0,
+      "option_margin": 0.05459278780609068,
+      "conflict": 0.3180240406463644,
+      "ambiguity": 0.0,
+      "retrieval_empty": 0.0,
+      "n_hits": 5.0
+    },
+    "latency_ms": 4.641833000277984,
+    "pred_action": "ABSTAIN",
+    "confidence": 0.6682543853817701,
+    "reason": "Calibrated model assigns highest probability to ABSTAIN.",
+    "probabilities": {
+      "ABSTAIN": 0.6682543853817701,
+      "ANSWER": 0.2330294605411302,
+      "CLARIFY": 0.09871615407709973
+    },
+    "answer_score": 0.2330294605411302,
+    "response": "I cannot give a reliable answer. Calibrated model assigns highest probability to ABSTAIN."
+  },
+  {
+    "example_id": "test-answer-505",
+    "split": "test",
+    "question": "What are the small molecules or proteins produced by bacteria that regulate gene expression?",
+    "options": [
+      "autoinducers",
+      "fluxes",
+      "protazoas",
+      "sporozoans"
+    ],
+    "gold_answer": "autoinducers",
+    "gold_action": "ANSWER",
+    "evidence_type": "sufficient",
+    "gold_passage_id": "test_505",
+    "construction_note": "Original SciQ question; gold support remains in the corpus.",
+    "clarification_target": null,
+    "predicted_answer": "autoinducers",
+    "option_scores": {
+      "autoinducers": 0.031975092977637454,
+      "fluxes": 0.0,
+      "protazoas": 0.0,
+      "sporozoans": 0.0
+    },
+    "extractive_span": "17 Autoinducers are small molecules or proteins produced by bacteria that regulate gene expression",
+    "supported_by_context": true,
+    "retrieved": [
+      {
+        "passage_id": "test_505",
+        "source": "sciq:test:505",
+        "score": 0.9170270904257406,
+        "text": "Figure 9.17 Autoinducers are small molecules or proteins produced by bacteria that regulate gene expression."
+      },
+      {
+        "passage_id": "train_7774",
+        "source": "sciq:train:7774",
+        "score": 0.32688908320780335,
+        "text": "Gene expression and protein synthesis are usually considered the same molecular process."
+      },
+      {
+        "passage_id": "train_2019",
+        "source": "sciq:train:2019",
+        "score": 0.2966493110031747,
+        "text": "Gene expression is regulated primarily at the transcriptional level."
+      },
+      {
+        "passage_id": "train_4715",
+        "source": "sciq:train:4715",
+        "score": 0.29015672341084414,
+        "text": "Evolution of Gene Regulation Prokaryotic cells can only regulate gene expression by controlling the amount of transcription. As eukaryotic cells evolved, the complexity of the control of gene expression increased. For example, with the evolution of eukaryotic cells came compartmentalization of important cellular components and cellular processes. A nuclear region that contains the DNA was formed. Transcription and translation were physically separated into two different cellular compartments. It therefore became possible to control gene expression by regulating transcription in the nucleus, and also by controlling the RNA levels and protein translation present outside the nucleus. Some cellular processes arose from the need of the organism to defend itself. Cellular processes such as gene silencing developed to protect the cell from viral or parasitic infections. If the cell could quickly shut off gene expression for a short period of time, it would be able to survive an infection when other organisms could not. Therefore, the organism evolved a new process that helped it survive, and it was able to pass this new development to offspring."
+      },
+      {
+        "passage_id": "train_4747",
+        "source": "sciq:train:4747",
+        "score": 0.26589804969832126,
+        "text": "Gene expression is regulated to ensure that the correct proteins are made when and where they are needed. Regulation may occur at any point in the expression of a gene, from the start of transcription to the processing of a protein after translation. The focus in this lesson is the regulation of transcription."
+      }
+    ],
+    "retrieved_ids": [
+      "test_505",
+      "train_7774",
+      "train_2019",
+      "train_4715",
+      "train_4747"
+    ],
+    "features": {
+      "max_relevance": 0.9170270904257406,
+      "mean_relevance": 0.4193240515491768,
+      "goldish_support": 1.0,
+      "option_margin": 0.031975092977637454,
+      "conflict": 0.3934163567412085,
+      "ambiguity": 0.45,
+      "retrieval_empty": 0.0,
+      "n_hits": 5.0
+    },
+    "latency_ms": 4.190665998976328,
+    "pred_action": "ANSWER",
+    "confidence": 0.34421690819654743,
+    "reason": "Calibrated model assigns highest probability to ANSWER.",
+    "probabilities": {
+      "ABSTAIN": 0.3171386885617531,
+      "ANSWER": 0.34421690819654743,
+      "CLARIFY": 0.33864440324169937
+    },
+    "answer_score": 0.34421690819654743,
+    "response": "autoinducers (citations: test_505, train_7774, train_2019)"
+  },
+  {
+    "example_id": "test-clarify-612",
+    "split": "test",
+    "question": "What is this called?",
+    "options": [
+      "favorable trait",
+      "harmful mutation",
+      "unfavorable trait",
+      "inherited gene"
+    ],
+    "gold_answer": "favorable trait",
+    "gold_action": "CLARIFY",
+    "evidence_type": "ambiguous",
+    "gold_passage_id": "test_612",
+    "construction_note": "Question underspecified from original SciQ item. Original: What is an adaptation?",
+    "clarification_target": "What is an adaptation?",
+    "predicted_answer": "favorable trait",
+    "option_scores": {
+      "favorable trait": 0.0,
+      "harmful mutation": 0.0,
+      "unfavorable trait": 0.0,
+      "inherited gene": 0.0
+    },
+    "extractive_span": "Thiols (also called mercaptans), which are sulfur analogs of alcohols, have the general formula RSH",
+    "supported_by_context": false,
+    "retrieved": [
+      {
+        "passage_id": "train_7772",
+        "source": "sciq:train:7772",
+        "score": 0.26486026463328205,
+        "text": "Thiols (also called mercaptans), which are sulfur analogs of alcohols, have the general formula RSH. Methanethiol (also called methyl mercaptan), has the formula CH3SH. Ethanethiol (ethyl mercaptan) is the most common odorant for liquid propane (LP) gas. The mild oxidation of thiols gives compounds called disulfides."
+      },
+      {
+        "passage_id": "train_1150",
+        "source": "sciq:train:1150",
+        "score": 0.21960577159825517,
+        "text": "Sexual reproduction is more complicated. It involves two parents. Special cells called gametes are produced by the parents. A gamete produced by a female parent is generally called an egg . A gamete produced by a male parent is usually called a sperm . An offspring forms when two gametes unite. The union of the two gametes is called fertilization . You can see a human sperm and egg uniting in Figure below . The initial cell that forms when two gametes unite is called a zygote ."
+      },
+      {
+        "passage_id": "test_821",
+        "source": "sciq:test:821",
+        "score": 0.19696408972643029,
+        "text": "A stream is a body of freshwater that flows downhill in a channel. The channel of a stream has a bottom, or bed, and sides called banks. Any size body of flowing water can be called a stream. Usually, though, a large stream is called a river ."
+      },
+      {
+        "passage_id": "train_7014",
+        "source": "sciq:train:7014",
+        "score": 0.19675789929506424,
+        "text": "CHAPTER REVIEW 11.1 Interactions of Skeletal Muscles, Their Fascicle Arrangement, and Their Lever Systems Skeletal muscles each have an origin and an insertion. The end of the muscle that attaches to the bone being pulled is called the muscle\u2019s insertion and the end of the muscle attached to a fixed, or stabilized, bone is called the origin. The muscle primarily responsible for a movement is called the prime mover, and muscles that assist in this action are called synergists. A synergist that makes the insertion site more stable is called a fixator. Meanwhile, a muscle with the opposite action of the prime mover is called an antagonist. Several factors contribute to the force generated by a skeletal muscle. One is the arrangement of the fascicles in the skeletal muscle. Fascicles can be parallel, circular, convergent, pennate, fusiform, or triangular. Each arrangement has its own range of motion and ability to do work."
+      },
+      {
+        "passage_id": "validation_669",
+        "source": "sciq:validation:669",
+        "score": 0.19512364207071248,
+        "text": "Particles that are composed of three quarks are called baryons."
+      }
+    ],
+    "retrieved_ids": [
+      "train_7772",
+      "train_1150",
+      "test_821",
+      "train_7014",
+      "validation_669"
+    ],
+    "features": {
+      "max_relevance": 0.26486026463328205,
+      "mean_relevance": 0.21466233346474883,
+      "goldish_support": 0.0,
+      "option_margin": 0.0,
+      "conflict": 0.5,
+      "ambiguity": 1.0,
+      "retrieval_empty": 0.0,
+      "n_hits": 5.0
+    },
+    "latency_ms": 5.350249999537482,
+    "pred_action": "CLARIFY",
+    "confidence": 0.6762588660773665,
+    "reason": "Calibrated model assigns highest probability to CLARIFY. Signals: ambiguity=1.00, conflict=0.50, answer not clearly mentioned in evidence.",
+    "probabilities": {
+      "ABSTAIN": 0.27811009499717304,
+      "ANSWER": 0.045631038925460436,
+      "CLARIFY": 0.6762588660773665
+    },
+    "answer_score": 0.045631038925460436,
+    "response": "Your question is missing essential detail. Which specific process, entity, or condition do you mean? (A more specific version would name the original subject.)"
+  },
+  {
+    "example_id": "test-missing-681",
+    "split": "test",
+    "question": "Proto-oncogenes can change into oncogenes that cause what?",
+    "options": [
+      "cancer",
+      "Infections",
+      "DNA",
+      "Mutations"
+    ],
+    "gold_answer": "cancer",
+    "gold_action": "ABSTAIN",
+    "evidence_type": "missing",
+    "gold_passage_id": null,
+    "construction_note": "Gold support withheld or originally empty, so retrieved evidence should be insufficient.",
+    "clarification_target": null,
+    "predicted_answer": "cancer",
+    "option_scores": {
+      "cancer": 0.12739957153994175,
+      "Infections": 0.0,
+      "DNA": 0.036399877582840495,
+      "Mutations": 0.036399877582840495
+    },
+    "extractive_span": "Oncogenes are genes involved in cancer formation",
+    "supported_by_context": true,
+    "retrieved": [
+      {
+        "passage_id": "train_5020",
+        "source": "sciq:train:5020",
+        "score": 0.6320921016136012,
+        "text": "Proto-oncogenes normally help control cell division. Mutations in these genes turn them into oncogenes. Oncogenes promote the division of cells with damaged DNA."
+      },
+      {
+        "passage_id": "train_1008",
+        "source": "sciq:train:1008",
+        "score": 0.5404776992981253,
+        "text": "The products of proto-oncogenes are required for normal growth, repair and homeostasis. However, when these genes are mutated, they turn into oncogenes and play a role in the development of cancer. Proto-oncogenes may be growth factors, transcription factors, or other proteins involved in regulation. A very common oncogene, ras , is normally a regulatory GTPase that switches a signal transduction chain on and off. Ras and Ras-related proteins are products of oncogenes found in 20% to 30% of human tumors. The transcription factor myc is an oncogene often seen mutated in Burkitt\u2019s lymphoma, a rare type of lymphoma, a cancer of the lymphocytes."
+      },
+      {
+        "passage_id": "train_9362",
+        "source": "sciq:train:9362",
+        "score": 0.4506910354763204,
+        "text": "Watch this animation (http://openstaxcollege. org/l/p53_cancer) to learn more about the use of p53 in fighting cancer. Proto-oncogenes are positive cell-cycle regulators. When mutated, proto-oncogenes can become oncogenes and cause cancer. Overexpression of the oncogene can lead to uncontrolled cell growth. This is because oncogenes can alter transcriptional activity, stability, or protein translation of another gene that directly or indirectly controls cell growth. An example of an oncogene involved in cancer is a protein called myc. Myc is a transcription factor that is aberrantly activated in Burkett\u2019s Lymphoma, a cancer of the lymph system. Overexpression of myc transforms normal B cells into cancerous cells that continue to grow uncontrollably. High B-cell numbers can result in tumors that can interfere with normal bodily function. Patients with Burkett\u2019s lymphoma can develop tumors on their jaw or in their mouth that interfere with the ability to eat."
+      },
+      {
+        "passage_id": "train_1039",
+        "source": "sciq:train:1039",
+        "score": 0.41827606653644955,
+        "text": "Proto-oncogenes The genes that code for the positive cell cycle regulators are called proto-oncogenes. Proto-oncogenes are normal genes that, when mutated in certain ways, become oncogenes, genes that cause a cell to become cancerous. Consider what might happen to the cell cycle in a cell with a recently acquired oncogene. In most instances, the alteration of the DNA sequence will result in a less functional (or non-functional) protein. The result is detrimental to the cell and will likely prevent the cell from completing the cell cycle; however, the organism is not harmed because the mutation will not be carried forward. If a cell cannot reproduce, the mutation is not propagated and the damage is minimal. Occasionally, however, a gene mutation causes a change that increases the activity of a positive regulator. For example, a mutation that allows Cdk to be activated without being partnered with cyclin could push the cell cycle past a checkpoint before all of the required conditions are met. If the resulting daughter cells are too damaged to undergo further cell divisions, the mutation would not be propagated and no harm would come to the organism. However, if the atypical daughter cells are able to undergo further cell divisions, subsequent generations of cells will probably accumulate even more mutations, some possibly in additional genes that regulate the cell cycle. The Cdk gene in the above example is only one of many genes that are considered proto-oncogenes. In addition to the cell cycle regulatory proteins, any protein that influences the cycle can be altered in such a way as to override cell cycle checkpoints. An oncogene is any gene that, when altered, leads to an increase in the rate of cell cycle progression."
+      },
+      {
+        "passage_id": "train_1193",
+        "source": "sciq:train:1193",
+        "score": 0.39345188162624123,
+        "text": "Oncogenes are genes involved in cancer formation."
+      }
+    ],
+    "retrieved_ids": [
+      "train_5020",
+      "train_1008",
+      "train_9362",
+      "train_1039",
+      "train_1193"
+    ],
+    "features": {
+      "max_relevance": 0.6320921016136012,
+      "mean_relevance": 0.4869977569101476,
+      "goldish_support": 1.0,
+      "option_margin": 0.09099969395710125,
+      "conflict": 1.0,
+      "ambiguity": 0.45,
+      "retrieval_empty": 0.0,
+      "n_hits": 5.0
+    },
+    "latency_ms": 4.431957999258884,
+    "pred_action": "CLARIFY",
+    "confidence": 0.4332010506443645,
+    "reason": "Calibrated model assigns highest probability to CLARIFY. Signals: conflict=1.00.",
+    "probabilities": {
+      "ABSTAIN": 0.27345001053913476,
+      "ANSWER": 0.2933489388165007,
+      "CLARIFY": 0.4332010506443645
+    },
+    "answer_score": 0.2933489388165007,
+    "response": "Your question is missing essential detail. Which specific process, entity, or condition do you mean?"
+  },
+  {
+    "example_id": "test-answer-746",
+    "split": "test",
+    "question": "What is the term for what the earth rotates on?",
+    "options": [
+      "axis",
+      "radius",
+      "tip",
+      "compass"
+    ],
+    "gold_answer": "axis",
+    "gold_action": "ANSWER",
+    "evidence_type": "sufficient",
+    "gold_passage_id": "test_746",
+    "construction_note": "Original SciQ question; gold support remains in the corpus.",
+    "clarification_target": null,
+    "predicted_answer": "axis",
+    "option_scores": {
+      "axis": 0.12663724337335217,
+      "radius": 0.0,
+      "tip": 0.0,
+      "compass": 0.0
+    },
+    "extractive_span": "The tilt of its axis creates the seasons",
+    "supported_by_context": true,
+    "retrieved": [
+      {
+        "passage_id": "train_1080",
+        "source": "sciq:train:1080",
+        "score": 0.6002053307554382,
+        "text": "Earth rotates on its axis every 24 hours."
+      },
+      {
+        "passage_id": "train_2469",
+        "source": "sciq:train:2469",
+        "score": 0.5352928736428575,
+        "text": "Earth rotates on its axis once each day and revolves around the Sun once every year."
+      },
+      {
+        "passage_id": "test_746",
+        "source": "sciq:test:746",
+        "score": 0.1966259608421118,
+        "text": "This Concept deals with some Earth basics. Earth is a planet and has the characteristics of a planet. Like other planets, it is nearly round. This is because it has enough mass for its gravity to pull material into a round shape. Earth's gravity has also pulled in small objects, like asteroids. So the planet's orbit is cleared. Earth rotates on its axis and revolves around its star. As a result of its rotation, Earth has a day-night cycle. The tilt of its axis creates the seasons. Earth has layers from crust to mantle to core. The core is divided into a liquid outer core and a solid inner core. The liquid outer core has convection, which generates the magnetic field. The mantle is solid rock. The crust has two major types: continental and oceanic. The crust and uppermost mantle make up the lithosphere. Beneath the lithosphere is the asthenosphere. The lithosphere is brittle and will break. The asthenosphere can flow."
+      },
+      {
+        "passage_id": "test_913",
+        "source": "sciq:test:913",
+        "score": 0.1952533429717724,
+        "text": "= 2.72\u00d710 \u22123 m/s. 2 The direction of the acceleration is toward the center of the Earth. Discussion The centripetal acceleration of the Moon found in (b) differs by less than 1% from the acceleration due to Earth\u2019s gravity found in (a). This agreement is approximate because the Moon\u2019s orbit is slightly elliptical, and Earth is not stationary (rather the Earth-Moon system rotates about its center of mass, which is located some 1700 km below Earth\u2019s surface). The clear implication is that Earth\u2019s gravitational force causes the Moon to orbit Earth."
+      },
+      {
+        "passage_id": "train_3311",
+        "source": "sciq:train:3311",
+        "score": 0.18934950095963637,
+        "text": "Venus rotates slowly in a direction opposite to the direction of its orbit."
+      }
+    ],
+    "retrieved_ids": [
+      "train_1080",
+      "train_2469",
+      "test_746",
+      "test_913",
+      "train_3311"
+    ],
+    "features": {
+      "max_relevance": 0.6002053307554382,
+      "mean_relevance": 0.34334540183436324,
+      "goldish_support": 1.0,
+      "option_margin": 0.12663724337335217,
+      "conflict": 0.07787585542215944,
+      "ambiguity": 0.0,
+      "retrieval_empty": 0.0,
+      "n_hits": 5.0
+    },
+    "latency_ms": 3.945166999983485,
+    "pred_action": "ABSTAIN",
+    "confidence": 0.5619882402820373,
+    "reason": "Calibrated model assigns highest probability to ABSTAIN.",
+    "probabilities": {
+      "ABSTAIN": 0.5619882402820373,
+      "ANSWER": 0.3562572096417366,
+      "CLARIFY": 0.08175455007622602
+    },
+    "answer_score": 0.3562572096417366,
+    "response": "I cannot give a reliable answer. Calibrated model assigns highest probability to ABSTAIN."
+  },
+  {
+    "example_id": "test-missing-460",
+    "split": "test",
+    "question": "What are different types of tissues organized into functional units called?",
+    "options": [
+      "organs",
+      "tendons",
+      "arteries",
+      "veins"
+    ],
+    "gold_answer": "organs",
+    "gold_action": "ABSTAIN",
+    "evidence_type": "missing",
+    "gold_passage_id": null,
+    "construction_note": "Gold support withheld or originally empty, so retrieved evidence should be insufficient.",
+    "clarification_target": null,
+    "predicted_answer": "organs",
+    "option_scores": {
+      "organs": 0.19959861539292822,
+      "tendons": 0.0,
+      "arteries": 0.0,
+      "veins": 0.0
+    },
+    "extractive_span": "Tissues may be organized into organs",
+    "supported_by_context": true,
+    "retrieved": [
+      {
+        "passage_id": "train_9373",
+        "source": "sciq:train:9373",
+        "score": 0.41696729876336175,
+        "text": "Bones are made up of different types of tissues."
+      },
+      {
+        "passage_id": "train_10641",
+        "source": "sciq:train:10641",
+        "score": 0.3136754065153614,
+        "text": "Plants are complex organisms with tissues organized into organs."
+      },
+      {
+        "passage_id": "train_8250",
+        "source": "sciq:train:8250",
+        "score": 0.28717636454315965,
+        "text": "Tissues may be organized into organs. An organ is a structure composed of two or more types of tissue that work together to do a specific task. For example, the heart is an organ. It consists of muscle, nerve, and other types of tissues. Its task is to pump blood."
+      },
+      {
+        "passage_id": "train_2235",
+        "source": "sciq:train:2235",
+        "score": 0.2755366509024182,
+        "text": "The basic building blocks of the human body are cells. Human cells are organized into tissues, tissues are organized into organs, and organs are organized into organ systems."
+      },
+      {
+        "passage_id": "train_8585",
+        "source": "sciq:train:8585",
+        "score": 0.26272084049517874,
+        "text": "Modern plants have three different types of tissues. They are called dermal, ground, and vascular tissues. Each type of tissue has a different function."
+      }
+    ],
+    "retrieved_ids": [
+      "train_9373",
+      "train_10641",
+      "train_8250",
+      "train_2235",
+      "train_8585"
+    ],
+    "features": {
+      "max_relevance": 0.41696729876336175,
+      "mean_relevance": 0.311215312243896,
+      "goldish_support": 1.0,
+      "option_margin": 0.19959861539292822,
+      "conflict": 0.0,
+      "ambiguity": 0.25,
+      "retrieval_empty": 0.0,
+      "n_hits": 5.0
+    },
+    "latency_ms": 3.604625000662054,
+    "pred_action": "ABSTAIN",
+    "confidence": 0.4844843597624009,
+    "reason": "Calibrated model assigns highest probability to ABSTAIN.",
+    "probabilities": {
+      "ABSTAIN": 0.4844843597624009,
+      "ANSWER": 0.29415733244926134,
+      "CLARIFY": 0.22135830778833776
+    },
+    "answer_score": 0.29415733244926134,
+    "response": "I cannot give a reliable answer. Calibrated model assigns highest probability to ABSTAIN."
+  }
+]

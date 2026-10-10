@@ -1,0 +1,12 @@
+{
+  "ANSWER": "Question is specific and gold supporting evidence remains in the corpus.",
+  "CLARIFY": "Question was underspecified; a targeted user question is required.",
+  "ABSTAIN": "Evidence is missing (gold passage withheld/empty) or contradictory (distractor asserted).",
+  "note": "Labels are constructed. Original SciQ has no three-action labels.",
+  "n_per_class": {
+    "train": 180,
+    "validation": 70,
+    "test": 90
+  },
+  "seed": 42
+}

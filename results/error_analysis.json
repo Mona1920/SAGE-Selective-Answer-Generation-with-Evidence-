@@ -1,0 +1,481 @@
+{
+  "answered_without_support": [
+    {
+      "example_id": "test-conflict-357",
+      "question": "What is a disease caused by the same virus that causes chicken pox?",
+      "gold_action": "ABSTAIN",
+      "pred_action": "ANSWER",
+      "predicted_answer": "shingles",
+      "reason": "Calibrated model assigns highest probability to ANSWER.",
+      "evidence_type": "contradictory"
+    },
+    {
+      "example_id": "test-conflict-334",
+      "question": "An increase in the number of gas molecules in the same volume container causes what to increase?",
+      "gold_action": "ABSTAIN",
+      "pred_action": "ANSWER",
+      "predicted_answer": "pressure",
+      "reason": "Calibrated model assigns highest probability to ANSWER.",
+      "evidence_type": "contradictory"
+    },
+    {
+      "example_id": "test-conflict-330",
+      "question": "Each bond includes a sharing of electrons between atoms. two electrons are shared in a single bond; four electrons are shared in a double bond; and six electrons are shared in this?",
+      "gold_action": "ABSTAIN",
+      "pred_action": "ANSWER",
+      "predicted_answer": "triple bond",
+      "reason": "Calibrated model assigns highest probability to ANSWER. Signals: conflict=1.00.",
+      "evidence_type": "contradictory"
+    },
+    {
+      "example_id": "test-conflict-362",
+      "question": "What type of diseases occur when the immune system attacks normal body cells?",
+      "gold_action": "ABSTAIN",
+      "pred_action": "ANSWER",
+      "predicted_answer": "autoimmune",
+      "reason": "Calibrated model assigns highest probability to ANSWER.",
+      "evidence_type": "contradictory"
+    },
+    {
+      "example_id": "test-conflict-541",
+      "question": "A cold front is formed when a cold air mass runs into what?",
+      "gold_action": "ABSTAIN",
+      "pred_action": "ANSWER",
+      "predicted_answer": "warm air mass",
+      "reason": "Calibrated model assigns highest probability to ANSWER.",
+      "evidence_type": "contradictory"
+    },
+    {
+      "example_id": "test-conflict-396",
+      "question": "The speed of sound depends on what?",
+      "gold_action": "ABSTAIN",
+      "pred_action": "ANSWER",
+      "predicted_answer": "medium",
+      "reason": "Calibrated model assigns highest probability to ANSWER. Signals: conflict=1.00.",
+      "evidence_type": "contradictory"
+    },
+    {
+      "example_id": "test-conflict-784",
+      "question": "What structure collect fluid that leaks out from blood capillaries?",
+      "gold_action": "ABSTAIN",
+      "pred_action": "ANSWER",
+      "predicted_answer": "lymph capillaries",
+      "reason": "Calibrated model assigns highest probability to ANSWER.",
+      "evidence_type": "contradictory"
+    },
+    {
+      "example_id": "test-conflict-599",
+      "question": "What process takes place when plants release water vapor through pores in their leaves called stomata?",
+      "gold_action": "ABSTAIN",
+      "pred_action": "ANSWER",
+      "predicted_answer": "transpiration",
+      "reason": "Calibrated model assigns highest probability to ANSWER. Signals: conflict=1.00.",
+      "evidence_type": "contradictory"
+    },
+    {
+      "example_id": "test-conflict-955",
+      "question": "Fahrenheit, celsius, and kelvin are all units which measure what?",
+      "gold_action": "ABSTAIN",
+      "pred_action": "ANSWER",
+      "predicted_answer": "temperature",
+      "reason": "Calibrated model assigns highest probability to ANSWER.",
+      "evidence_type": "contradictory"
+    },
+    {
+      "example_id": "test-conflict-233",
+      "question": "Often represented by an arrow, a vector is a measurement that has both size and what?",
+      "gold_action": "ABSTAIN",
+      "pred_action": "ANSWER",
+      "predicted_answer": "direction",
+      "reason": "Calibrated model assigns highest probability to ANSWER.",
+      "evidence_type": "contradictory"
+    },
+    {
+      "example_id": "test-conflict-526",
+      "question": "What is the measurement of something along it's greatest dimension called?",
+      "gold_action": "ABSTAIN",
+      "pred_action": "ANSWER",
+      "predicted_answer": "length",
+      "reason": "Calibrated model assigns highest probability to ANSWER.",
+      "evidence_type": "contradictory"
+    }
+  ],
+  "false_abstention": [
+    {
+      "example_id": "test-answer-521",
+      "question": "What term means the set of processes by which metals are extracted from their ores and converted to more useful forms?",
+      "gold_action": "ANSWER",
+      "pred_action": "ABSTAIN",
+      "reason": "Calibrated model assigns highest probability to ABSTAIN.",
+      "evidence_type": "sufficient"
+    },
+    {
+      "example_id": "test-answer-746",
+      "question": "What is the term for what the earth rotates on?",
+      "gold_action": "ANSWER",
+      "pred_action": "ABSTAIN",
+      "reason": "Calibrated model assigns highest probability to ABSTAIN.",
+      "evidence_type": "sufficient"
+    },
+    {
+      "example_id": "test-answer-987",
+      "question": "The four basic types of tissue are epithelial, muscle, connective, and what?",
+      "gold_action": "ANSWER",
+      "pred_action": "ABSTAIN",
+      "reason": "Calibrated model assigns highest probability to ABSTAIN. Signals: conflict=1.00.",
+      "evidence_type": "sufficient"
+    },
+    {
+      "example_id": "test-answer-289",
+      "question": "How do prokaryotic cells divide?",
+      "gold_action": "ANSWER",
+      "pred_action": "ABSTAIN",
+      "reason": "Calibrated model assigns highest probability to ABSTAIN. Signals: conflict=0.50, answer not clearly mentioned in evidence.",
+      "evidence_type": "sufficient"
+    },
+    {
+      "example_id": "test-answer-643",
+      "question": "The chains in cellulose stack in parallel rows held together by hydrogen bonds between which groups?",
+      "gold_action": "ANSWER",
+      "pred_action": "ABSTAIN",
+      "reason": "Calibrated model assigns highest probability to ABSTAIN. Signals: conflict=0.46, answer not clearly mentioned in evidence.",
+      "evidence_type": "sufficient"
+    },
+    {
+      "example_id": "test-answer-687",
+      "question": "What is the mechanism by which favorable traits become more common in organisms over the course of generations?",
+      "gold_action": "ANSWER",
+      "pred_action": "ABSTAIN",
+      "reason": "Calibrated model assigns highest probability to ABSTAIN. Signals: conflict=1.00.",
+      "evidence_type": "sufficient"
+    },
+    {
+      "example_id": "test-answer-874",
+      "question": "What is the transfer of heat by physical contact?",
+      "gold_action": "ANSWER",
+      "pred_action": "ABSTAIN",
+      "reason": "Calibrated model assigns highest probability to ABSTAIN.",
+      "evidence_type": "sufficient"
+    },
+    {
+      "example_id": "test-answer-733",
+      "question": "Where do recent rocks point towards on earth?",
+      "gold_action": "ANSWER",
+      "pred_action": "ABSTAIN",
+      "reason": "Calibrated model assigns highest probability to ABSTAIN.",
+      "evidence_type": "sufficient"
+    },
+    {
+      "example_id": "test-answer-27",
+      "question": "Most insects reproduce quickly and through what type of reproduction?",
+      "gold_action": "ANSWER",
+      "pred_action": "ABSTAIN",
+      "reason": "Calibrated model assigns highest probability to ABSTAIN. Signals: conflict=1.00.",
+      "evidence_type": "sufficient"
+    },
+    {
+      "example_id": "test-answer-112",
+      "question": "What phenomenon, which is most important in small populations, occurs because the alleles in an offspring generation are a random sample of the alleles in the parent generation?",
+      "gold_action": "ANSWER",
+      "pred_action": "ABSTAIN",
+      "reason": "Calibrated model assigns highest probability to ABSTAIN.",
+      "evidence_type": "sufficient"
+    },
+    {
+      "example_id": "test-answer-150",
+      "question": "What artery takes blood to the brain?",
+      "gold_action": "ANSWER",
+      "pred_action": "ABSTAIN",
+      "reason": "Calibrated model assigns highest probability to ABSTAIN. Signals: conflict=1.00.",
+      "evidence_type": "sufficient"
+    },
+    {
+      "example_id": "test-answer-671",
+      "question": "What kind of diffusion do small hydrophobic molecules squeeze through lipid molecules?",
+      "gold_action": "ANSWER",
+      "pred_action": "ABSTAIN",
+      "reason": "Calibrated model assigns highest probability to ABSTAIN. Signals: conflict=1.00.",
+      "evidence_type": "sufficient"
+    },
+    {
+      "example_id": "test-answer-535",
+      "question": "Does atmospheric pressure increase or decrease as the altitude increases?",
+      "gold_action": "ANSWER",
+      "pred_action": "ABSTAIN",
+      "reason": "Calibrated model assigns highest probability to ABSTAIN. Signals: conflict=1.00.",
+      "evidence_type": "sufficient"
+    },
+    {
+      "example_id": "test-answer-240",
+      "question": "What type of behaviors are rigid and predictable, and usually involve basic life functions?",
+      "gold_action": "ANSWER",
+      "pred_action": "ABSTAIN",
+      "reason": "Calibrated model assigns highest probability to ABSTAIN.",
+      "evidence_type": "sufficient"
+    },
+    {
+      "example_id": "test-answer-684",
+      "question": "What are the biggest groups of stars called?",
+      "gold_action": "ANSWER",
+      "pred_action": "ABSTAIN",
+      "reason": "Calibrated model assigns highest probability to ABSTAIN.",
+      "evidence_type": "sufficient"
+    }
+  ],
+  "unnecessary_clarify": [
+    {
+      "example_id": "test-missing-592",
+      "question": "When statoliths settle to the low point in the chamber, they stimulate what in that location?",
+      "gold_action": "ABSTAIN",
+      "pred_action": "CLARIFY",
+      "reason": "Calibrated model assigns highest probability to CLARIFY. Signals: ambiguity=0.95, conflict=0.50, answer not clearly mentioned in evidence.",
+      "evidence_type": "missing"
+    },
+    {
+      "example_id": "test-missing-681",
+      "question": "Proto-oncogenes can change into oncogenes that cause what?",
+      "gold_action": "ABSTAIN",
+      "pred_action": "CLARIFY",
+      "reason": "Calibrated model assigns highest probability to CLARIFY. Signals: conflict=1.00.",
+      "evidence_type": "missing"
+    },
+    {
+      "example_id": "test-conflict-922",
+      "question": "What type of crust is made of basalt lavas that flow onto the seafloor?",
+      "gold_action": "ABSTAIN",
+      "pred_action": "CLARIFY",
+      "reason": "Calibrated model assigns highest probability to CLARIFY.",
+      "evidence_type": "contradictory"
+    },
+    {
+      "example_id": "test-answer-432",
+      "question": "One important phenomenon related to the relative strength of cohesive and adhesive forces is capillary action\u2014the tendency of a fluid to be raised or suppressed in a narrow tube, or called this?",
+      "gold_action": "ANSWER",
+      "pred_action": "CLARIFY",
+      "reason": "Calibrated model assigns highest probability to CLARIFY.",
+      "evidence_type": "sufficient"
+    },
+    {
+      "example_id": "test-conflict-242",
+      "question": "What is the term for the preserved remains or traces of organisms that lived in the past?",
+      "gold_action": "ABSTAIN",
+      "pred_action": "CLARIFY",
+      "reason": "Calibrated model assigns highest probability to CLARIFY. Signals: conflict=1.00.",
+      "evidence_type": "contradictory"
+    },
+    {
+      "example_id": "test-answer-673",
+      "question": "Parasites infect the host's what?",
+      "gold_action": "ANSWER",
+      "pred_action": "CLARIFY",
+      "reason": "Calibrated model assigns highest probability to CLARIFY. Signals: ambiguity=0.60.",
+      "evidence_type": "sufficient"
+    },
+    {
+      "example_id": "test-answer-329",
+      "question": "A dilute solution is one that has a relatively small amount of what?",
+      "gold_action": "ANSWER",
+      "pred_action": "CLARIFY",
+      "reason": "Calibrated model assigns highest probability to CLARIFY.",
+      "evidence_type": "sufficient"
+    },
+    {
+      "example_id": "test-answer-220",
+      "question": "Animals are classified according to morphological and developmental characteristics, such as a body plan. with the exception of sponges, the animal body plan is symmetrical. this means that their distribution of body parts is balanced along this?",
+      "gold_action": "ANSWER",
+      "pred_action": "CLARIFY",
+      "reason": "Calibrated model assigns highest probability to CLARIFY. Signals: ambiguity=0.95, conflict=0.45.",
+      "evidence_type": "sufficient"
+    },
+    {
+      "example_id": "test-missing-434",
+      "question": "What kind of reproduction generates most of the genetic variation that makes evolutionary adaptation possible?",
+      "gold_action": "ABSTAIN",
+      "pred_action": "CLARIFY",
+      "reason": "Calibrated model assigns highest probability to CLARIFY. Signals: conflict=1.00.",
+      "evidence_type": "missing"
+    },
+    {
+      "example_id": "test-missing-697",
+      "question": "The three-dimensional spaces with specific shapes that are components of electrons shells are known as what?",
+      "gold_action": "ABSTAIN",
+      "pred_action": "CLARIFY",
+      "reason": "Calibrated model assigns highest probability to CLARIFY. Signals: ambiguity=0.70, conflict=0.50, answer not clearly mentioned in evidence.",
+      "evidence_type": "missing"
+    },
+    {
+      "example_id": "test-answer-302",
+      "question": "A rock that contains important minerals is called what, a term associated with mining?",
+      "gold_action": "ANSWER",
+      "pred_action": "CLARIFY",
+      "reason": "Calibrated model assigns highest probability to CLARIFY. Signals: ambiguity=0.70.",
+      "evidence_type": "sufficient"
+    },
+    {
+      "example_id": "test-conflict-782",
+      "question": "What is it called when two plates slide past each other in opposite directions?",
+      "gold_action": "ABSTAIN",
+      "pred_action": "CLARIFY",
+      "reason": "Calibrated model assigns highest probability to CLARIFY.",
+      "evidence_type": "contradictory"
+    },
+    {
+      "example_id": "test-answer-739",
+      "question": "What is the name for the energy waves that radiate out from the center of an earthquake?",
+      "gold_action": "ANSWER",
+      "pred_action": "CLARIFY",
+      "reason": "Calibrated model assigns highest probability to CLARIFY.",
+      "evidence_type": "sufficient"
+    },
+    {
+      "example_id": "test-conflict-318",
+      "question": "The components of a mixture keep their own identity when they combine, so they retain what type of properties, such as boiling point and ability to dissolve?",
+      "gold_action": "ABSTAIN",
+      "pred_action": "CLARIFY",
+      "reason": "Calibrated model assigns highest probability to CLARIFY. Signals: ambiguity=0.50.",
+      "evidence_type": "contradictory"
+    },
+    {
+      "example_id": "test-conflict-581",
+      "question": "The tissue that will become the scrotum in a male becomes the labia in a female, thus, they are regarded as having what relationship?",
+      "gold_action": "ABSTAIN",
+      "pred_action": "CLARIFY",
+      "reason": "Calibrated model assigns highest probability to CLARIFY. Signals: ambiguity=0.70, conflict=0.42.",
+      "evidence_type": "contradictory"
+    }
+  ],
+  "retrieval_miss_on_answerable": [
+    {
+      "example_id": "test-answer-289",
+      "question": "How do prokaryotic cells divide?",
+      "gold_passage_id": "test_289",
+      "retrieved_ids": [
+        "test_786",
+        "train_8932",
+        "train_4509",
+        "test_386",
+        "train_11033"
+      ]
+    },
+    {
+      "example_id": "test-answer-671",
+      "question": "What kind of diffusion do small hydrophobic molecules squeeze through lipid molecules?",
+      "gold_passage_id": "test_671",
+      "retrieved_ids": [
+        "test_959",
+        "test_506",
+        "train_8367",
+        "validation_546",
+        "train_5885"
+      ]
+    },
+    {
+      "example_id": "test-answer-739",
+      "question": "What is the name for the energy waves that radiate out from the center of an earthquake?",
+      "gold_passage_id": "test_739",
+      "retrieved_ids": [
+        "validation_377",
+        "train_5822",
+        "train_7188",
+        "train_3374",
+        "train_8544"
+      ]
+    },
+    {
+      "example_id": "test-answer-364",
+      "question": "What is produced by the end of meiosis?",
+      "gold_passage_id": "test_364",
+      "retrieved_ids": [
+        "train_1667",
+        "train_3233",
+        "train_40",
+        "train_11590",
+        "test_352"
+      ]
+    },
+    {
+      "example_id": "test-answer-230",
+      "question": "A collapsing nebula leads to what process?",
+      "gold_passage_id": "test_230",
+      "retrieved_ids": [
+        "train_6269",
+        "train_9501",
+        "train_11415",
+        "train_1844",
+        "train_446"
+      ]
+    },
+    {
+      "example_id": "test-answer-30",
+      "question": "What is the most abundant metal of the earth's crust?",
+      "gold_passage_id": "test_30",
+      "retrieved_ids": [
+        "train_3069",
+        "train_5281",
+        "train_1825",
+        "train_2712",
+        "train_5298"
+      ]
+    },
+    {
+      "example_id": "test-answer-153",
+      "question": "Approximately 20% of the atmosphere is made of which element?",
+      "gold_passage_id": "test_153",
+      "retrieved_ids": [
+        "train_10971",
+        "train_1735",
+        "train_11264",
+        "train_7612",
+        "train_5512"
+      ]
+    },
+    {
+      "example_id": "test-answer-737",
+      "question": "What do charged particles in motion generate?",
+      "gold_passage_id": "test_737",
+      "retrieved_ids": [
+        "train_10428",
+        "train_7227",
+        "train_11501",
+        "train_8862",
+        "validation_729"
+      ]
+    },
+    {
+      "example_id": "test-answer-205",
+      "question": "What are the best-known extinct vertebrates?",
+      "gold_passage_id": "test_205",
+      "retrieved_ids": [
+        "test_574",
+        "train_7899",
+        "train_3293",
+        "train_9372",
+        "train_1320"
+      ]
+    },
+    {
+      "example_id": "test-answer-135",
+      "question": "What forms when nitrogen and sulfur oxides in air dissolve in rain?",
+      "gold_passage_id": "test_135",
+      "retrieved_ids": [
+        "validation_308",
+        "train_11578",
+        "train_821",
+        "train_4022",
+        "train_1170"
+      ]
+    },
+    {
+      "example_id": "test-answer-544",
+      "question": "When compared to anaerobic respiration, what does aerobic respiration release more of?",
+      "gold_passage_id": "test_544",
+      "retrieved_ids": [
+        "train_11111",
+        "train_3435",
+        "validation_182",
+        "train_750",
+        "train_3345"
+      ]
+    }
+  ]
+}

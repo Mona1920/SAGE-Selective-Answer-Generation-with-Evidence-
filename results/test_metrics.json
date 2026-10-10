@@ -1,0 +1,473 @@
+{
+  "standard_rag": {
+    "n": 360,
+    "action_accuracy": 0.25,
+    "confusion": [
+      [
+        90,
+        0,
+        0
+      ],
+      [
+        90,
+        0,
+        0
+      ],
+      [
+        180,
+        0,
+        0
+      ]
+    ],
+    "labels": [
+      "ANSWER",
+      "CLARIFY",
+      "ABSTAIN"
+    ],
+    "coverage": 1.0,
+    "unsupported_answer_rate": 0.7694444444444445,
+    "false_abstention_rate": 0.0,
+    "selective_risk": 0.7694444444444445,
+    "em_among_answered": 0.9,
+    "clarify": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 90
+    },
+    "abstain": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 180
+    },
+    "answer": {
+      "precision": 0.24999999999930556,
+      "recall": 0.9999999999888889,
+      "f1": 0.39999999967822225,
+      "tp": 90,
+      "fp": 270,
+      "fn": 0
+    },
+    "citation_hit_gold_answer_items": 0.8777777777777778,
+    "brier": 1.4850999999999916,
+    "ece": 0.7400000000000001,
+    "mean_latency_ms": 4.310453674992863,
+    "gold_counts": {
+      "ABSTAIN": 180,
+      "ANSWER": 90,
+      "CLARIFY": 90
+    },
+    "pred_counts": {
+      "ANSWER": 360
+    },
+    "by_evidence_type": {
+      "missing": {
+        "n": 90,
+        "action_accuracy": 0.0,
+        "unsupported_answer_rate": 1.0,
+        "coverage": 1.0
+      },
+      "sufficient": {
+        "n": 90,
+        "action_accuracy": 1.0,
+        "unsupported_answer_rate": 0.07777777777777778,
+        "coverage": 1.0
+      },
+      "ambiguous": {
+        "n": 90,
+        "action_accuracy": 0.0,
+        "unsupported_answer_rate": 1.0,
+        "coverage": 1.0
+      },
+      "contradictory": {
+        "n": 90,
+        "action_accuracy": 0.0,
+        "unsupported_answer_rate": 1.0,
+        "coverage": 1.0
+      }
+    }
+  },
+  "fixed_threshold": {
+    "n": 360,
+    "action_accuracy": 0.35,
+    "confusion": [
+      [
+        68,
+        0,
+        22
+      ],
+      [
+        58,
+        0,
+        32
+      ],
+      [
+        122,
+        0,
+        58
+      ]
+    ],
+    "labels": [
+      "ANSWER",
+      "CLARIFY",
+      "ABSTAIN"
+    ],
+    "coverage": 0.6888888888888889,
+    "unsupported_answer_rate": 0.5166666666666667,
+    "false_abstention_rate": 0.24444444444444444,
+    "selective_risk": 0.75,
+    "em_among_answered": 0.9032258064516129,
+    "clarify": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 90
+    },
+    "abstain": {
+      "precision": 0.5178571428525192,
+      "recall": 0.3222222222204321,
+      "f1": 0.3972602734969976,
+      "tp": 58,
+      "fp": 54,
+      "fn": 122
+    },
+    "answer": {
+      "precision": 0.2741935483859912,
+      "recall": 0.7555555555471605,
+      "f1": 0.4023668635122019,
+      "tp": 68,
+      "fp": 180,
+      "fn": 22
+    },
+    "citation_hit_gold_answer_items": 0.8777777777777778,
+    "brier": 0.7575326093523698,
+    "ece": 0.558315522526026,
+    "mean_latency_ms": 4.310453674992863,
+    "gold_counts": {
+      "ABSTAIN": 180,
+      "ANSWER": 90,
+      "CLARIFY": 90
+    },
+    "pred_counts": {
+      "ABSTAIN": 112,
+      "ANSWER": 248
+    },
+    "by_evidence_type": {
+      "missing": {
+        "n": 90,
+        "action_accuracy": 0.5444444444444444,
+        "unsupported_answer_rate": 0.45555555555555555,
+        "coverage": 0.45555555555555555
+      },
+      "sufficient": {
+        "n": 90,
+        "action_accuracy": 0.7555555555555555,
+        "unsupported_answer_rate": 0.06666666666666667,
+        "coverage": 0.7555555555555555
+      },
+      "ambiguous": {
+        "n": 90,
+        "action_accuracy": 0.0,
+        "unsupported_answer_rate": 0.6444444444444445,
+        "coverage": 0.6444444444444445
+      },
+      "contradictory": {
+        "n": 90,
+        "action_accuracy": 0.1,
+        "unsupported_answer_rate": 0.9,
+        "coverage": 0.9
+      }
+    }
+  },
+  "calibrated_binary": {
+    "n": 360,
+    "action_accuracy": 0.4111111111111111,
+    "confusion": [
+      [
+        77,
+        0,
+        13
+      ],
+      [
+        50,
+        0,
+        40
+      ],
+      [
+        109,
+        0,
+        71
+      ]
+    ],
+    "labels": [
+      "ANSWER",
+      "CLARIFY",
+      "ABSTAIN"
+    ],
+    "coverage": 0.6555555555555556,
+    "unsupported_answer_rate": 0.46111111111111114,
+    "false_abstention_rate": 0.14444444444444443,
+    "selective_risk": 0.7033898305084746,
+    "em_among_answered": 0.8940677966101694,
+    "clarify": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 90
+    },
+    "abstain": {
+      "precision": 0.5725806451566727,
+      "recall": 0.39444444444225313,
+      "f1": 0.4671052626717885,
+      "tp": 71,
+      "fp": 53,
+      "fn": 109
+    },
+    "answer": {
+      "precision": 0.3262711864392955,
+      "recall": 0.8555555555460493,
+      "f1": 0.4723926376341977,
+      "tp": 77,
+      "fp": 159,
+      "fn": 13
+    },
+    "citation_hit_gold_answer_items": 0.8777777777777778,
+    "brier": 0.7492575695740231,
+    "ece": 0.14586255677889115,
+    "mean_latency_ms": 4.310453674992863,
+    "gold_counts": {
+      "ABSTAIN": 180,
+      "ANSWER": 90,
+      "CLARIFY": 90
+    },
+    "pred_counts": {
+      "ABSTAIN": 124,
+      "ANSWER": 236
+    },
+    "by_evidence_type": {
+      "missing": {
+        "n": 90,
+        "action_accuracy": 0.6,
+        "unsupported_answer_rate": 0.4,
+        "coverage": 0.4
+      },
+      "sufficient": {
+        "n": 90,
+        "action_accuracy": 0.8555555555555555,
+        "unsupported_answer_rate": 0.07777777777777778,
+        "coverage": 0.8555555555555555
+      },
+      "ambiguous": {
+        "n": 90,
+        "action_accuracy": 0.0,
+        "unsupported_answer_rate": 0.5555555555555556,
+        "coverage": 0.5555555555555556
+      },
+      "contradictory": {
+        "n": 90,
+        "action_accuracy": 0.18888888888888888,
+        "unsupported_answer_rate": 0.8111111111111111,
+        "coverage": 0.8111111111111111
+      }
+    }
+  },
+  "rule_three_action": {
+    "n": 360,
+    "action_accuracy": 0.525,
+    "confusion": [
+      [
+        27,
+        26,
+        37
+      ],
+      [
+        7,
+        61,
+        22
+      ],
+      [
+        37,
+        42,
+        101
+      ]
+    ],
+    "labels": [
+      "ANSWER",
+      "CLARIFY",
+      "ABSTAIN"
+    ],
+    "coverage": 0.19722222222222222,
+    "unsupported_answer_rate": 0.12222222222222222,
+    "false_abstention_rate": 0.4111111111111111,
+    "selective_risk": 0.6197183098591549,
+    "em_among_answered": 0.971830985915493,
+    "clarify": {
+      "precision": 0.47286821705059795,
+      "recall": 0.6777777777702468,
+      "f1": 0.5570776250815455,
+      "tp": 61,
+      "fp": 68,
+      "fn": 29
+    },
+    "abstain": {
+      "precision": 0.6312499999960547,
+      "recall": 0.5611111111079938,
+      "f1": 0.5941176465570588,
+      "tp": 101,
+      "fp": 59,
+      "fn": 79
+    },
+    "answer": {
+      "precision": 0.38028169013548896,
+      "recall": 0.29999999999666666,
+      "f1": 0.3354037262108715,
+      "tp": 27,
+      "fp": 44,
+      "fn": 63
+    },
+    "citation_hit_gold_answer_items": 0.8777777777777778,
+    "brier": 0.7359339010693589,
+    "ece": 0.2382852682450479,
+    "mean_latency_ms": 4.310453674992863,
+    "gold_counts": {
+      "ABSTAIN": 180,
+      "ANSWER": 90,
+      "CLARIFY": 90
+    },
+    "pred_counts": {
+      "CLARIFY": 129,
+      "ABSTAIN": 160,
+      "ANSWER": 71
+    },
+    "by_evidence_type": {
+      "missing": {
+        "n": 90,
+        "action_accuracy": 0.6888888888888889,
+        "unsupported_answer_rate": 0.1111111111111111,
+        "coverage": 0.1111111111111111
+      },
+      "sufficient": {
+        "n": 90,
+        "action_accuracy": 0.3,
+        "unsupported_answer_rate": 0.0,
+        "coverage": 0.3
+      },
+      "ambiguous": {
+        "n": 90,
+        "action_accuracy": 0.6777777777777778,
+        "unsupported_answer_rate": 0.07777777777777778,
+        "coverage": 0.07777777777777778
+      },
+      "contradictory": {
+        "n": 90,
+        "action_accuracy": 0.43333333333333335,
+        "unsupported_answer_rate": 0.3,
+        "coverage": 0.3
+      }
+    }
+  },
+  "proposed_calibrated_three_action": {
+    "n": 360,
+    "action_accuracy": 0.5222222222222223,
+    "confusion": [
+      [
+        6,
+        18,
+        66
+      ],
+      [
+        0,
+        41,
+        49
+      ],
+      [
+        11,
+        28,
+        141
+      ]
+    ],
+    "labels": [
+      "ANSWER",
+      "CLARIFY",
+      "ABSTAIN"
+    ],
+    "coverage": 0.04722222222222222,
+    "unsupported_answer_rate": 0.030555555555555555,
+    "false_abstention_rate": 0.7333333333333333,
+    "selective_risk": 0.6470588235294118,
+    "em_among_answered": 1.0,
+    "clarify": {
+      "precision": 0.4712643678106751,
+      "recall": 0.4555555555504938,
+      "f1": 0.46327683565310096,
+      "tp": 41,
+      "fp": 46,
+      "fn": 49
+    },
+    "abstain": {
+      "precision": 0.5507812499978485,
+      "recall": 0.7833333333289815,
+      "f1": 0.6467889903379134,
+      "tp": 141,
+      "fp": 115,
+      "fn": 39
+    },
+    "answer": {
+      "precision": 0.352941176449827,
+      "recall": 0.06666666666592592,
+      "f1": 0.11214953244091187,
+      "tp": 6,
+      "fp": 11,
+      "fn": 84
+    },
+    "citation_hit_gold_answer_items": 0.8777777777777778,
+    "brier": 0.5601632485952649,
+    "ece": 0.05588678264036871,
+    "mean_latency_ms": 4.310453674992863,
+    "gold_counts": {
+      "ABSTAIN": 180,
+      "ANSWER": 90,
+      "CLARIFY": 90
+    },
+    "pred_counts": {
+      "CLARIFY": 87,
+      "ABSTAIN": 256,
+      "ANSWER": 17
+    },
+    "by_evidence_type": {
+      "missing": {
+        "n": 90,
+        "action_accuracy": 0.8777777777777778,
+        "unsupported_answer_rate": 0.0,
+        "coverage": 0.0
+      },
+      "sufficient": {
+        "n": 90,
+        "action_accuracy": 0.06666666666666667,
+        "unsupported_answer_rate": 0.0,
+        "coverage": 0.06666666666666667
+      },
+      "ambiguous": {
+        "n": 90,
+        "action_accuracy": 0.45555555555555555,
+        "unsupported_answer_rate": 0.0,
+        "coverage": 0.0
+      },
+      "contradictory": {
+        "n": 90,
+        "action_accuracy": 0.6888888888888889,
+        "unsupported_answer_rate": 0.12222222222222222,
+        "coverage": 0.12222222222222222
+      }
+    }
+  }
+}

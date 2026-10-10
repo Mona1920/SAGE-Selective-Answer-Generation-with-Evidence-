@@ -1,0 +1,14 @@
+{
+  "rule": {
+    "ambiguity": 0.4,
+    "relevance": 0.04,
+    "margin": 0.05,
+    "support_min": 0.5,
+    "conflict": 0.5
+  },
+  "fixed_retrieval_threshold": 0.36000000000000004,
+  "binary_answer_threshold": 0.2,
+  "binary_val_f1": 0.425196849991072,
+  "tuned_on": "validation",
+  "never_tuned_on": "test"
+}

@@ -1,0 +1,26 @@
+# Reproducible experiment configuration.
+# Do not change test-set settings after looking at test metrics.
+
+seed: 42
+dataset: allenai/sciq
+
+# Keep the run small enough for a laptop/Colab CPU, large enough for tables.
+n_per_class:
+  train: 180
+  validation: 70
+  test: 90
+
+top_k: 5
+max_features_tfidf: 30000
+ngram_range: [1, 2]
+
+# Rule-based thresholds are tuned on validation only (see results/thresholds.json).
+# These values are unused until validation tuning writes the chosen thresholds.
+rule_thresholds:
+  ambiguity: 0.55
+  relevance: 0.12
+  margin: 0.02
+  conflict: 0.08
+
+output_dir: results
+data_dir: data
